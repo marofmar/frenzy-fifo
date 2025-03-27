@@ -4,5 +4,5 @@ router = APIRouter()
 
 @router.post("/purchase")
 async def purchase():
-    return {"message": "Purchase attempted"}
+    return {"message": "구매 도전!"}
 
